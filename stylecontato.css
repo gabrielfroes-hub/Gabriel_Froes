@@ -13,7 +13,7 @@ body{
 }
 
 .cabecalho{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(116, 0, 29);
     text-align: center;
     padding: 20px;
 }
@@ -23,7 +23,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    background-color: rgb(255, 0, 0);
+    background-color:  rgb(116, 0, 29);
     padding: 5px 0;
 }
 
