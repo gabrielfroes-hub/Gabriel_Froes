@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.cabecalho{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 0;
+}
+
+.cabecalho-menu-img{
+    width: 200px;
+}
+
+.menu a{
+   padding: 20px;
+   text-decoration: none;
+   color:rgb(255, 255, 255);
+   font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 3, 1);
+    border-radius: 80%;
+    transition: 350ms ease;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-secoes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subtitulo{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #00e3fc;
+}
+
+input[type="text"], input[type="password"], input
+[type="date"], input[type = email]{
+    width: 1000px;
+    padding: 8px;
+    border: solid #00ffea;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+input::placeholder{
+  color: #ff0000;
+}
+
+.menu-suspenso{
+    cursor: pointer;
+    width: 50px;
+    background-color: #ccd595;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.figure-img{
+    width:"200px"
+}
+
+.rodapé{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-link{
+    color: #ccd595;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
